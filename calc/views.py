@@ -19,7 +19,7 @@ def calc(request, x, action, y):
         try:
             res = x / y
         except ZeroDivisionError:
-            err = 'paraparapa'
+            err = 'На 0 делить нельзя'
 
     elif action == 'sub':
         symbol = '-'
