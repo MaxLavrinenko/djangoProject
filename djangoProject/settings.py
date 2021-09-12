@@ -78,7 +78,7 @@ import MySQLdb
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test_my_db',
+        'NAME': 'my_user_db',
         'USER':'root',
         'PASSWORD':'root',
         'HOST':'localhost',
